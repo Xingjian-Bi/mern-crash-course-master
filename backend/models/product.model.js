@@ -10,6 +10,14 @@ const productSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    calories: {
+      type: Number,
+      required: true,
+    },
+    protein: {
+      type: Number,
+      required: true,
+    },
     image: {
       type: String,
       required: true,
